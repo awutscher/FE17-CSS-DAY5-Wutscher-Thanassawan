@@ -1,1 +1,165 @@
-/*# sourceMappingURL=style.css.map */
+/* Imports */
+body {
+  background-color: aqua;
+  margin: 0;
+  font-family: "Righteous", "Times New Roman", "Verdana", sans-serif;
+}
+
+html {
+  font: "Righteous";
+}
+
+nav ul {
+  list-style-type: none;
+  background-color: gray;
+  margin-top: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 20px 20px;
+  display: block;
+}
+nav ul li a:hover {
+  background-color: aqua;
+}
+
+#logo {
+  position: relative;
+  margin-bottom: -20px;
+  width: 50px;
+  height: 50px;
+}
+
+#content {
+  width: 50%;
+  margin: auto;
+}
+#content div {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#heroimg {
+  width: 100%;
+  height: auto;
+}
+
+#hero {
+  position: relative;
+}
+
+#herotext {
+  font-size: xx-large;
+  background-color: beige;
+  padding: 2%;
+  position: absolute;
+  bottom: 60%;
+  right: 15%;
+}
+#herotext:hover {
+  box-shadow: 10px 15px black;
+  transition: 0.5s ease-in-out;
+}
+#herotext:hover:after {
+  box-shadow: 10px 15px black;
+  transition: 0.5s ease-in-out;
+}
+
+footer {
+  text-align: right;
+  padding: 15px;
+  background-color: gray;
+}
+footer p {
+  padding-right: 10%;
+}
+
+/* testing purpose */
+/* body{
+    background-color: aqua;
+    margin: 0;
+    font-family: "Righteous", "Times New Roman","Verdana",sans-serif;
+}
+html {
+    font: "Righteous";
+} */
+/* Navigation */
+/* nav ul {
+    list-style-type: none;
+    background-color: gray;
+    margin-top:0;
+}
+
+ul li {
+    display: inline-block;
+} */
+/* 
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 20px 20px;
+    display: block;
+} */
+/* 
+li a:hover{
+    background-color: aqua;
+} */
+/* #logo {
+    position: relative;
+    margin-bottom: -20px;
+    width: 50px;
+    height: 50px;
+} */
+/* Content */
+/* #content {
+    width: 50%;
+    margin: auto;
+}
+
+#content div{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#heroimg {
+    width: 100%;
+    height: auto;
+}
+
+#hero {
+    position: relative;
+}
+
+#herotext {
+    font-size: xx-large;
+    background-color: beige;
+    padding: 2%;
+    position: absolute;
+    bottom: 60%;
+    right: 15%;
+} */
+/* #herotext:hover {
+    box-shadow: 10px 15px black;
+    transition: 0.5s ease-in-out;
+}
+
+#herotext:hover:after {
+    box-shadow: 10px 15px black;
+    transition: 0.5s ease-in-out;
+}
+ */
+/* Footer */
+/* footer {
+    text-align: right;
+    padding: 15px;
+    background-color: gray;
+}
+
+footer p {
+    padding-right: 10%;
+}
+ *//*# sourceMappingURL=style.css.map */
